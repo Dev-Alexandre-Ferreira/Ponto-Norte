@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#regula {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  height: 100vh;
+}
+
+.pnRegistroGuiaEsq {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  display: flex;
+}
+
+.pnRegistroGuiaImg {
+  margin: 0px;
+  padding: 0px;
+  width: 50vw;
+  height: 100vh;
+  background: url(/src/assets/fundoLoginRegistro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.pnRegistroGuiaFormContainer {
+  max-width: 400px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.pnRegistroGuiaDir {
+  margin: 0px;
+  padding: 0px;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  padding: 0px;
+  margin: 0px;
+  align-content: center;
+}
+
+.pnRegistroGuiaForm {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.pnRegistroGuiaForm h1 {
+  font-size: 2rem;
+}
+
+.pnRegistroGuiaGrupo {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  border-bottom: 1px solid #000;
+  margin-top: 25px;
+}
+
+.pnRegistroGuiaGrupo img {
+  width: 20px;
+  height: 20px;
+}
+
+.pnRegistroGuiaCampoEmail,
+.pnRegistroGuiaCampoSenha,
+.pnRegistroGuiaCampoNome,
+.pnRegistroGuiaCampoSobrenome,
+.pnRegistroGuiaCampoRepetirSenha,
+.pnRegistroGuiaCampoCPF,
+.pnRegistroGuiaCampoTelefone {
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 0.8rem;
+  width: 100%;
+  height: 10px;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.pnRegistrarGuiaButton {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 40px;
+  border: none;
+  background-color: #f2b705;
+  width: 400px;
+  height: 50px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pnRegistrarGuiaButton:active {
+  box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
+}
+
+.pnRegistroGuiaFormContainer h2 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 0.8rem;
+  margin-top: 20px;
+  color: #000;
+}
+
+.pnGuiaButtonLink1 {
+  color: #365902;
+}
+.pnGuiaButtonLink2 {
+  color: #f27405;
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#regula {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  height: 100vh;
+}
+
+.pnRegistroOpcEsquerdo {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  display: flex;
+}
+
+.pnRegistroOpcImg {
+  margin: 0px;
+  padding: 0px;
+  width: 50vw;
+  height: 100vh;
+  background: url(/src/assets/fundoLoginRegistro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.pnRegistroOpcContainer {
+  max-width: 450px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.pnRegistroOpcDireito {
+  margin: 0px;
+  padding: 0px;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.pnRegistroOpcConteudo {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.pnRegistroOpcConteudo h1 {
+  font-size: 3rem;
+}
+
+.pnRegistroOpcContainerOpcao {
+  display: flex;
+  width: 450px;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+  color: #8e8e8e;
+}
+
+.pnRegistroOpcContainerOpcao a {
+  color: #8e8e8e;
+}
+
+.pnRegistroOpcBtn1 {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 60px;
+  border: none;
+  background-color: #f2b705;
+  width: 450px;
+  height: 60px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pnRegistroOpcBtn1:active {
+  box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
+}
+
+.pnRegistroOpcBtn2 {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 30px;
+  border: none;
+  background-color: #f2b705;
+  width: 450px;
+  height: 60px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pnRegistroOpcBtn2:active {
+  box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
+}
+
+.pnRegistroOpcLinkVoltar {
+  margin: 0px;
+  padding: 0px;
+  width: 450px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.pnRegistroOpcConteudo a {
+  margin: 0px;
+  padding: 0px;
+  color: #365902;
+  font-weight: bold;
+}

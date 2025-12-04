@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+p {
+  margin: 0px;
+}
+
+footer {
+  background-color: black;
+  padding: 20px 0px 0px 0px;
+}
+
+h2 {
+  font-weight: bold;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.pnFooterSite {
+  padding: 60px 0px 0px 0px;
+}
+
+.pnFooterContainer {
+  max-width: 1300px;
+  margin: 0 auto;
+  justify-content: space-between;
+  display: flex;
+  border-bottom: 1px solid #a85002;
+  background-color: black;
+}
+
+.pnRedesSociais {
+  display: flex;
+  gap: 10px;
+}
+
+.pnRedesSociais img {
+  width: 30px;
+}
+
+.pnInfoMarca {
+  max-width: 100%;
+  display: block;
+  justify-content: center;
+  align-content: start;
+}
+
+.pnFooterSite {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.pnFooterSite p {
+  color: #f2f2f2;
+  padding: 20px 0px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.pnFooterColum {
+  align-content: start;
+  justify-content: start;
+  margin-bottom: 50px;
+}
+
+.pnFooterColum li {
+  margin-bottom: 10px;
+}
+
+.pnFooterColum h2,
+li {
+  margin-bottom: 20px;
+}
+
+#logoPnFooter {
+  max-width: 320px;
+}

@@ -1,0 +1,121 @@
+body {
+  font-family: 'Poppins';
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+#pnCardTrilhaFoto {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+}
+.pnCardTrilhasContainer {
+  width: 230px;
+  height: 330px;
+  display: grid;
+  margin: 0px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 0px 0px 25px 25px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.pnCardTrilhasFoto img {
+  border-radius: 25px 25px 0px 0px;
+  width: 270px;
+  height: 200px;
+}
+
+.pnCardTrilhasLocalizacao {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+#tamanho {
+  font-size: 0.875rem;
+  color: #5e5e5e;
+}
+
+.pnCardTrilhasDados {
+  display: grid;
+  align-content: start;
+}
+
+.pnCardTrilhasLocalizacao::before {
+  content: '';
+  height: 2px;
+  width: 230px;
+  top: -5px;
+  background-color: #365902;
+  position: absolute;
+}
+
+#CardAvaliacao {
+  display: flex;
+}
+
+#CardAvaliacao img {
+  width: 15px;
+  height: 15px;
+}
+
+.pnCardTrilhasPrevia {
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.pnCardTrilhasDistancia {
+  margin-bottom: 10px;
+  display: grid;
+  gap: 10px 0px 0px 0px;
+}
+
+.pnCardTrilhasDistancia li {
+  font-weight: 600;
+}
+
+.pnCardTrilhasDistancia span {
+  font-weight: 400;
+}
+
+#pnCardTrilhasBotao {
+  text-decoration: none;
+  font-family: 'Poppins';
+  color: #fff;
+  padding: 10px 15px;
+  background-color: black;
+  border-radius: 4px;
+  justify-self: end;
+  margin-top: 20px;
+  position: absolute;
+  top: 275px;
+}
+
+.pnCardTrilhasContainer {
+  position: relative;
+}
+
+#tituloTrilha {
+  font-size: 1.1rem;
+}
