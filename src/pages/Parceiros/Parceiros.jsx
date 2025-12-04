@@ -36,11 +36,11 @@ function Parceiros() {
 
         <section className="pnParceirosContainer">
           <div className="pnParceirosDados">
-            <h2>Lume</h2>
+            <h2>Decathlon</h2>
             <p>
-              Através da nossa parceria com a <span>Lume</span>, você garante
-              15% de desconto em diversos calçados e produtos da marca. É só
-              usar o cupom <span>PONTONORTE15</span> no site da{' '}
+              Através da nossa parceria com a <span>Decathlon</span>, você
+              garante 15% de desconto em diversos calçados e produtos da marca.
+              É só usar o cupom <span>PONTONORTE15</span> no site da{' '}
               <span>Lume</span> e aproveitar!
             </p>
             <Link className="pnBotaoParceiros" to="">
@@ -57,9 +57,9 @@ function Parceiros() {
             <img src={macboot} alt="" />
           </div>
           <div className="pnParceirosDados">
-            <h2>Lume</h2>
+            <h2>Macboot</h2>
             <p>
-              Através da nossa parceria com a <span>Lume</span>, você garante
+              Através da nossa parceria com a <span>Macboot</span>, você garante
               15% de desconto em diversos calçados e produtos da marca. É só
               usar o cupom <span>PONTONORTE15</span> no site da{' '}
               <span>Lume</span> e aproveitar!
@@ -72,11 +72,11 @@ function Parceiros() {
 
         <section className="pnParceirosContainer">
           <div className="pnParceirosDados">
-            <h2>Lume</h2>
+            <h2>Centauro</h2>
             <p>
-              Através da nossa parceria com a <span>Lume</span>, você garante
-              15% de desconto em diversos calçados e produtos da marca. É só
-              usar o cupom <span>PONTONORTE15</span> no site da{' '}
+              Através da nossa parceria com a <span>Centauro</span>, você
+              garante 15% de desconto em diversos calçados e produtos da marca.
+              É só usar o cupom <span>PONTONORTE15</span> no site da{' '}
               <span>Lume</span> e aproveitar!
             </p>
             <Link className="pnBotaoParceiros" to="">
@@ -93,11 +93,11 @@ function Parceiros() {
             <img src={tnf} alt="" />
           </div>
           <div className="pnParceirosDados">
-            <h2>Lume</h2>
+            <h2>The North Face</h2>
             <p>
-              Através da nossa parceria com a <span>Lume</span>, você garante
-              15% de desconto em diversos calçados e produtos da marca. É só
-              usar o cupom <span>PONTONORTE15</span> no site da{' '}
+              Através da nossa parceria com a <span>The North Face</span>, você
+              garante 15% de desconto em diversos calçados e produtos da marca.
+              É só usar o cupom <span>PONTONORTE15</span> no site da{' '}
               <span>Lume</span> e aproveitar!
             </p>
             <Link className="pnBotaoParceiros" to="">

@@ -1,29 +1,30 @@
 import { Route, Routes } from 'react-router-dom';
-import Home from '../pages/Home/Home';
-import Trilhas from '../pages/Trilhas/Trilhas';
-import Parceiros from '../pages/Parceiros/Parceiros';
-import Plano from '../pages/Plano/Plano';
-import Guias from '../pages/Guias/Guias';
-import Termos from '../pages/TermosPrivacidade/TermosPrivacidade';
-import LGPD from '../pages/LGPD/LGPD';
-import Perguntas from '../pages/PerguntasFrequentes/PerguntasFrequentes';
-import TrilhasCurtas from '../pages/TrilhasCurtas/TrilhasCurtas';
-import TrilhasMedias from '../pages/TrilhasMedias/TrilhasMedias';
-import Login from '../pages/Login/Login';
-import RegistroOpcoes from '../pages/RegistroOpcoes/RegistroOpcoes';
-import RegistroTrilheiro from '../pages/RegistroTrilheiro/RegistroTrilheiro';
-import RegistroGuia from '../pages/RegistroGuia/RegistroGuia';
-import RegistroGuiaSucesso from '../pages/RegistroGuiaSucesso/RegistroGuiaSucesso';
-import RegistroGuiaEndereco from '../pages/RegistroGuiaEndereco/RegistroGuiaEndereco';
-import RegistroGuiaBancarios from '../pages/RegistroGuiaBancarios/RegistroGuiaBancarios';
-import RegistroTrilheiroSucesso from '../pages/RegistroTrilheiroSucesso/RegistroTrilheiroSucesso';
-import TrilhaSelecionada from '../pages/TrilhaSelecionada/TrilhaSelecionada';
+import Home from '../pages/Home/Home.jsx';
+import Trilhas from '../pages/Trilhas/Trilhas.jsx';
+import Parceiros from '../pages/Parceiros/Parceiros.jsx';
+import Plano from '../pages/Plano/Plano.jsx';
+import Guias from '../pages/Guias/Guias.jsx';
+import Termos from '../pages/TermosPrivacidade/TermosPrivacidade.jsx';
+import LGPD from '../pages/LGPD/LGPD.jsx';
+import Perguntas from '../pages/PerguntasFrequentes/PerguntasFrequentes.jsx';
+import TrilhasCurtas from '../pages/TrilhasCurtas/TrilhasCurtas.jsx';
+import TrilhasMedias from '../pages/TrilhasMedias/TrilhasMedias.jsx';
+import Login from '../pages/Login/Login.jsx';
+import RegistroOpcoes from '../pages/RegistroOpcoes/RegistroOpcoes.jsx';
+import RegistroTrilheiro from '../pages/RegistroTrilheiro/RegistroTrilheiro.jsx';
+import RegistroGuia from '../pages/RegistroGuia/RegistroGuia.jsx';
+import RegistroGuiaSucesso from '../pages/RegistroGuiaSucesso/RegistroGuiaSucesso.jsx';
+import RegistroGuiaEndereco from '../pages/RegistroGuiaEndereco/RegistroGuiaEndereco.jsx';
+import RegistroGuiaBancarios from '../pages/RegistroGuiaBancarios/RegistroGuiaBancarios.jsx';
+import RegistroTrilheiroSucesso from '../pages/RegistroTrilheiroSucesso/RegistroTrilheiroSucesso.jsx';
+import TrilhaSelecionada from '../pages/TrilhaSelecionada/TrilhaSelecionada.jsx';
 
 export default function Rotas() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/Ponto-norte" element={<Home />} />
         <Route path="/Home" element={<Home />} />
         <Route path="/Trilhas" element={<Trilhas />} />
         <Route path="/TrilhaSelecionada" element={<TrilhaSelecionada />} />

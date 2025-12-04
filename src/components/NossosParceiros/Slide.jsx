@@ -2,18 +2,18 @@ import { div, section } from 'framer-motion/client';
 import '../NossosParceiros/Slide.css';
 
 const logos = [
-  { src: '/public/todos/centauro.png', alt: 'Centauro' },
-  { src: '/public/todos/Decathlon.png', alt: 'Decathlon' },
-  { src: '/public/todos/lume.parceiro.png', alt: 'Lume' },
-  { src: '/public/todos/macboot.png', alt: 'Macboot' },
-  { src: '/public/todos/tnf.png', alt: 'The North Face' },
-  // duplicar para looping suave
+  { src: '/todos/centauro.png', alt: 'Centauro' },
+  { src: '/todos/Decathlon.png', alt: 'Decathlon' },
+  { src: '/todos/lume.parceiro.png', alt: 'Lume' },
+  { src: '/todos/macboot.png', alt: 'Macboot' },
+  { src: '/todos/tnf.png', alt: 'The North Face' },
 
-  { src: '/public/todos/centauro.png', alt: 'Centauro' },
-  { src: '/public/todos/Decathlon.png', alt: 'Decathlon' },
-  { src: '/public/todos/lume.parceiro.png', alt: 'Lume' },
-  { src: '/public/todos/macboot.png', alt: 'Macboot' },
-  { src: '/public/todos/tnf.png', alt: 'The North Face' },
+  // duplicar para looping suave
+  { src: '/todos/centauro.png', alt: 'Centauro' },
+  { src: '/todos/Decathlon.png', alt: 'Decathlon' },
+  { src: '/todos/lume.parceiro.png', alt: 'Lume' },
+  { src: '/todos/macboot.png', alt: 'Macboot' },
+  { src: '/todos/tnf.png', alt: 'The North Face' },
 ];
 
 export default function LogoCarousel() {
