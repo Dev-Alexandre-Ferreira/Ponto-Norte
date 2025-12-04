@@ -5,7 +5,7 @@ import Footer from '../../components/Footer/Footer';
 import CardTrilha from '../../components/CardTrilha/CardTrilha';
 import tomba from '/Trilhas-curtas/Cachoeira-da-Tomba.jpg';
 import ciclo from '/Trilhas-curtas/Ciclovia.jpg';
-import circuito from '/Trilhas-curtas/Circuito-ibirapuera.jpg';
+import circuito from '/Trilhas-curtas/Circuito-Ibirapuera.jpg';
 import tiete from '/Trilhas-curtas/Ecológico-do-Tietê.jpg';
 import horto from '/Trilhas-curtas/Lago-do-Horto.jpg';
 import maresias from '/Trilhas-curtas/Maresias-Paúba.jpg';
